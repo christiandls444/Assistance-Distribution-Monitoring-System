@@ -11,6 +11,7 @@ The study aims to develop a mobile application that can monitor the list of reci
 <li>Allow Barangay officials to monitor the List of the recipient.</li>
 <li>Allow Barangay officials to monitor the List of the recipient who received and who did not.</li>
 <li>Allow Barangay officials to manage the file maintenance of the application.</li>
+
 <h3>Team Members:</h3>
 <li>Charles Matthew Gatdula</li>
 <li>Erica Aerielle Briones</li>
