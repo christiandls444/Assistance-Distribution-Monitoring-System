@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recta"
+    tools:context=".SMSAnnouncement">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/userinterfacewhite"
+        >
+        <TextView
+
+            android:textSize="39sp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            android:text="Announcement"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/news"
+            android:paddingTop="22dp"
+            android:paddingStart="14dp"
+            android:fontFamily="sans-serif-light"
+
+            />
+
+            />
+
+        <EditText
+            android:id="@+id/PhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="bold"
+            android:hint="Phone No."
+            android:textSize="20sp"
+            android:background="@drawable/stroke3"
+            android:paddingStart="20dp"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+        <EditText
+            android:id="@+id/MessageAnnounce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:gravity="start"
+
+            android:hint="Message"
+            android:textSize="20sp"
+            android:background="@drawable/stroke3"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+
+                <TextView
+                    android:id="@+id/Send"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="Send"
+                    android:textSize="30sp"
+                    android:background="@drawable/recta"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

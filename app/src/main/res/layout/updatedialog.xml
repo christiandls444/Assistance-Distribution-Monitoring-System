@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@color/white"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Update"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="#56BAeC"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/baloo_chettan"
+
+            />
+
+        <EditText
+            android:id="@+id/upIDnum"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="ID number"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+
+        <EditText
+            android:id="@+id/upFname"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="First Name"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upMname"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Middle Name"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upLname"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Last Name"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upContact"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Contact"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upEmail"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upSex"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Gender"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upStatus"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Status"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upTOA"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Type of Assitance"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upAmount"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Amount"
+            android:paddingStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:id="@+id/upDate"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:hint="Date"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/upSponsor"
+            android:layout_height="50dp"
+            android:hint="Sponsored By"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/upnotedby"
+            android:layout_height="50dp"
+            android:hint="NotedBy"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/upNoteDate"
+            android:layout_height="50dp"
+            android:hint="Note Date"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:id="@+id/upTIme"
+            android:layout_height="50dp"
+            android:hint="Time"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/stroke3"
+
+
+            />
+
+        <TextView
+            android:id="@+id/updateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/recta"
+            android:fontFamily="@font/baloo_chettan"
+            android:gravity="center"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+
+            />
+
+
+</LinearLayout>
+
+
+</ScrollView>

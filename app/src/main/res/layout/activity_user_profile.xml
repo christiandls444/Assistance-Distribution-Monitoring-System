@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colordes2"
+    tools:context=".UserProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/colordes"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/userinterfacewhite"
+            >
+
+
+        <RelativeLayout
+            android:id="@+id/We_care_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          >
+            <ImageView
+                android:id="@+id/User_Logout"
+                android:layout_width="65dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/logoutuser" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/sanjoselogo" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp">
+
+                <ImageView
+                    android:id="@+id/View"
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@id/We_care_layout"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="2"
+
+                    android:layout_marginTop="360dp"
+
+                    android:layout_toStartOf="@+id/user"
+                    android:src="@drawable/viewprofile" />
+
+                <ImageView
+                    android:id="@+id/USerAnnouncement"
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_below="@id/We_care_layout"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="360dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="2"
+
+                    android:src="@drawable/announcement" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

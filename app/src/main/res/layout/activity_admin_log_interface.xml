@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".adminLogInterface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/colordes2"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colordes"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monitorindes"
+    >
+
+
+    <ImageView
+
+        android:layout_width="164dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="117dp"
+        android:src="@drawable/admin" />
+
+    <EditText
+        android:id="@+id/admin_email"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/stroke2"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="5dp"
+        android:hint="Username"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:background="@drawable/stroke2"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/admin_password"
+        android:layout_below="@+id/admin_email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="34dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:layout_marginEnd="46dp"
+        android:hint="Password" />
+
+    <CheckBox
+        android:id="@+id/adminlogin_showpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admin_password"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="10dp"
+        android:text="Show Password"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/LogIn"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/admin_password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="49dp"
+        android:background="@drawable/recta"
+        android:fontFamily="@font/baloo_chettan"
+        android:gravity="center"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>
+</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

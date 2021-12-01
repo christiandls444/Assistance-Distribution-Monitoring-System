@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="13dp"
+    android:layout_margin="13dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:drawableEnd="@drawable/pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tittle"
+            android:paddingStart="20dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/Admin_Tittle"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_marginTop="20dp"
+            android:textSize="23sp"
+            android:paddingStart="20dp"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:id="@+id/Admin_Message"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Posted:"
+            android:paddingStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="23sp"
+            android:padding="3dp"
+            android:layout_marginStart="180dp"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/Admin_DatedPosted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="0dp"
+            android:paddingStart="20dp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:paddingStart="20dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="0dp"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:id="@+id/Admin_TimePosted"
+
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
